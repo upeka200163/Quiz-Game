@@ -30,7 +30,7 @@ Test your **Object-Oriented Programming** knowledge with multiple-choice questio
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/java-oop-quiz-game.git
+   [git clone https://github.com/your-username/java-oop-quiz-game.git](https://github.com/upeka200163/Quiz-Game.git)
 
   <img width="716" height="322" alt="Screenshot (185)" src="https://github.com/user-attachments/assets/40da8bdc-3e53-41e8-b249-c8579b790e19" />
 
