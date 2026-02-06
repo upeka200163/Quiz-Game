@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Game Time!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-particles"></div>
+
+    <div class="container">
+
+        <div id="start-screen" class="screen">
+            <div class="start-wrapper">
+                
+                <div class="start-card">
+                    
+                    <div class="emblem-container">
+                        <div class="emblem-inner">
+                            <span class="emblem-icon">🎯</span>
+                        </div>
+                    </div>
+
+                    <h1 class="main-title">QUIZ TIME!</h1>
+
+                    <p class="subtitle">
+                        Test your knowledge & master key concepts
+                    </p>
+
+                    <div class="btn-container">
+                        <button id="start-btn" class="start-btn">
+                            Start Quiz
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz-screen" class="screen hide">
+            <div class="quiz-header">
+                <span id="question-number">Question 1 of 10</span>
+                <span id="score-display">Score: 0</span>
+            </div>
+            <div id="question-container">
+                <h2 id="question-text">Question goes here?</h2>
+                <div id="answer-buttons" class="btn-grid"></div>
+            </div>
+            <div class="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+
+        <div id="result-screen" class="screen hide">
+    <div class="start-card"> <h1 class="main-title" style="font-size: 3rem;">FINISH!</h1>
+        
+        <p id="final-score-text" style="font-size: 1.5rem; color: #333; margin-bottom: 10px; font-weight: bold;"></p>
+        
+        <p id="feedback-message" style="font-size: 1.2rem; margin-bottom: 30px; font-weight: 500;"></p>
+        
+        <button id="restart-btn" class="start-btn">Restart Quiz</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
